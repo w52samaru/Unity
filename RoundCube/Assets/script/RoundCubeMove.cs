@@ -32,11 +32,13 @@ public class RoundCubeMove : MonoBehaviour {
 		table_lt.Add("path",pos_lt);
 		table_lt.Add("onupdate", "Lookcore");		// トゥイーンを開始してから毎フレームUpdateHandler()を呼ぶ
 		table_lt.Add("oncomplete", "MoveXminus");	// トゥイーン終了時にiTween.MoveToを呼ぶ
-		table_lt.Add("time",5f);	
+		table_lt.Add("time",1f);	
 
 		//横へ移動するテーブル設定
 		tableX.Add("x", 0);
-		tableX.Add("time",1f);	
+		tableX.Add
+			("time",1f);	
+
 
 		//設定完了
 
